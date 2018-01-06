@@ -13,7 +13,14 @@ public class Socio {
 	private String password_soc;
 	private String estado;
 	private Categoria cat_soc;
+	private Carnet carnet;
 	
+	public Carnet getCarnet() {
+		return carnet;
+	}
+	public void setCarnet(Carnet carnet) {
+		this.carnet = carnet;
+	}
 	public int getId_socio() {
 		return id_socio;
 	}

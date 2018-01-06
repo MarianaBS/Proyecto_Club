@@ -9,8 +9,15 @@ private String descripcion;
 private String estado;
 private double costo;
 private ArrayList<Horarios_activ> horarios;
+private int duracion_min;
 
 
+public int getDuracion_min() {
+	return duracion_min;
+}
+public void setDuracion_min(int duracion_min) {
+	this.duracion_min = duracion_min;
+}
 public ArrayList<Horarios_activ> getHorarios() {
 	return horarios;
 }
